@@ -1,0 +1,231 @@
+C:\Users\User>certutil
+CertUtil: -dump comando completado correctamente.
+
+C:\Users\User>mkdir celulares
+
+C:\Users\User>cd celulares
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:37 p. m.    <DIR>          .
+11/09/2020  05:37 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  64.619.278.336 bytes libres
+
+C:\Users\User\celulares>echo conrt
+conrt
+
+C:\Users\User\celulares>echo contenido > archivo_01.txt
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:39 p. m.    <DIR>          .
+11/09/2020  05:39 p. m.    <DIR>          ..
+11/09/2020  05:39 p. m.                12 archivo_01.txt
+               1 archivos             12 bytes
+               2 dirs  64.619.077.632 bytes libres
+
+C:\Users\User\celulares>echo contenido_estudiantil > archivo_0
+
+C:\Users\User\celulares>more archivo_01.txt
+contenido
+
+C:\Users\User\celulares>echo cualquier cosa
+cualquier cosa
+
+C:\Users\User\celulares>echo cualquier contenido
+cualquier contenido
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:41 p. m.    <DIR>          .
+11/09/2020  05:41 p. m.    <DIR>          ..
+11/09/2020  05:41 p. m.                24 archivo_0
+11/09/2020  05:39 p. m.                12 archivo_01.txt
+               2 archivos             36 bytes
+               2 dirs  64.618.426.368 bytes libres
+
+C:\Users\User\celulares>echo contenido tercer archivo > archivo_03.txt
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:45 p. m.    <DIR>          .
+11/09/2020  05:45 p. m.    <DIR>          ..
+11/09/2020  05:41 p. m.                24 archivo_0
+11/09/2020  05:39 p. m.                12 archivo_01.txt
+11/09/2020  05:45 p. m.                27 archivo_03.txt
+               3 archivos             63 bytes
+               2 dirs  64.618.323.968 bytes libres
+
+C:\Users\User\celulares>more archivo_0
+contenido_estudiantil
+
+C:\Users\User\celulares>more archivo_01.txt
+contenido
+
+C:\Users\User\celulares>more archivo_03.txt
+contenido tercer archivo
+
+C:\Users\User\celulares>echo contenido del cuarto archivo > archivo_04.txt
+
+C:\Users\User\celulares>type archivo_04.txt
+contenido del cuarto archivo
+
+C:\Users\User\celulares>echo contenido quinto archivo > archivo_05.txt
+
+C:\Users\User\celulares>fc / L archivo_0.txt
+FC: Modificadores no válidos
+
+FC: no se puede abrir L: el archivo o carpeta no existe
+
+
+C:\Users\User\celulares>fc / L archivo_0.txt archivo_01.txt
+FC: Modificadores no válidos
+
+FC: Modificadores no válidos
+
+FC: no se puede abrir L: el archivo o carpeta no existe
+
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:49 p. m.    <DIR>          .
+11/09/2020  05:49 p. m.    <DIR>          ..
+11/09/2020  05:41 p. m.                24 archivo_0
+11/09/2020  05:39 p. m.                12 archivo_01.txt
+11/09/2020  05:45 p. m.                27 archivo_03.txt
+11/09/2020  05:47 p. m.                31 archivo_04.txt
+11/09/2020  05:49 p. m.                28 archivo_05.txt
+               5 archivos            122 bytes
+               2 dirs  64.618.905.600 bytes libres
+
+C:\Users\User\celulares>fc / L archivo_01.txt archivo_03.txt
+FC: Modificadores no válidos
+
+FC: Modificadores no válidos
+
+FC: no se puede abrir L: el archivo o carpeta no existe
+
+
+C:\Users\User\celulares>fc /L archivo_01.txt archivo_03.txt
+Comparando archivos archivo_01.txt y ARCHIVO_03.TXT
+***** archivo_01.txt
+contenido
+***** ARCHIVO_03.TXT
+contenido tercer archivo
+*****
+
+
+C:\Users\User\celulares>fc /L archivo_01.txt archivo_04.txt
+Comparando archivos archivo_01.txt y ARCHIVO_04.TXT
+***** archivo_01.txt
+contenido
+***** ARCHIVO_04.TXT
+contenido del cuarto archivo
+*****
+
+
+C:\Users\User\celulares>fc /L archivo_01.txt archivo_05.txt
+Comparando archivos archivo_01.txt y ARCHIVO_05.TXT
+***** archivo_01.txt
+contenido
+***** ARCHIVO_05.TXT
+contenido quinto archivo
+*****
+
+
+C:\Users\User\celulares>type archivo_01.txt >> archivo_03.txt
+
+C:\Users\User\celulares>type archivo_03.txt
+contenido tercer archivo
+contenido
+
+C:\Users\User\celulares>type archivo_04.txt >> archivo_05.txt
+
+C:\Users\User\celulares>type archivo_05.txt
+contenido quinto archivo
+contenido del cuarto archivo
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:49 p. m.    <DIR>          .
+11/09/2020  05:49 p. m.    <DIR>          ..
+11/09/2020  05:41 p. m.                24 archivo_0
+11/09/2020  05:39 p. m.                12 archivo_01.txt
+11/09/2020  05:56 p. m.                39 archivo_03.txt
+11/09/2020  05:47 p. m.                31 archivo_04.txt
+11/09/2020  05:58 p. m.                59 archivo_05.txt
+               5 archivos            165 bytes
+               2 dirs  64.618.348.544 bytes libres
+
+C:\Users\User\celulares>certutil -hashfile archivo_01.txt SHA256
+SHA256 hash de archivo_01.txt:
+9ce2422319a4f8f9da7201a12ab13c1974c74620be92945f7774b501273f01c0
+CertUtil: -hashfile comando completado correctamente.
+
+C:\Users\User\celulares>certutil -hashfile archivo_03.txt SHA256
+SHA256 hash de archivo_03.txt:
+f951b1235e8930135c6b8fda1fbd8810836859655bdd9bd62abc1b4e3d14fa33
+CertUtil: -hashfile comando completado correctamente.
+
+C:\Users\User\celulares>certutil -hashfile archivo_04.txt SHA256
+SHA256 hash de archivo_04.txt:
+f21713130689c156b908557c44b7303beb3fba6f62ad55ff398554256203e910
+CertUtil: -hashfile comando completado correctamente.
+
+C:\Users\User\celulares>certutil -hashfile archivo_05.txt SHA256
+SHA256 hash de archivo_05.txt:
+388963d290d7ce81797877a54d9c8573b15c636090d12a7cbebcd20e2d71d06b
+CertUtil: -hashfile comando completado correctamente.
+
+C:\Users\User\celulares>certutil -hashfile archivo_01.txt SHA256 | findstr /V hash
+9ce2422319a4f8f9da7201a12ab13c1974c74620be92945f7774b501273f01c0
+
+C:\Users\User\celulares>certutil -hashfile archivo_03.txt SHA256 | findstr /V hash
+f951b1235e8930135c6b8fda1fbd8810836859655bdd9bd62abc1b4e3d14fa33
+
+C:\Users\User\celulares>certutil -hashfile archivo_04.txt SHA256 | findstr /V hash
+f21713130689c156b908557c44b7303beb3fba6f62ad55ff398554256203e910
+
+C:\Users\User\celulares>certutil -hashfile archivo_05.txt SHA256 | findstr /V hash
+388963d290d7ce81797877a54d9c8573b15c636090d12a7cbebcd20e2d71d06b
+
+C:\Users\User\celulares>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\celulares
+
+11/09/2020  05:49 p. m.    <DIR>          .
+11/09/2020  05:49 p. m.    <DIR>          ..
+11/09/2020  05:41 p. m.                24 archivo_0
+11/09/2020  05:39 p. m.                12 archivo_01.txt
+11/09/2020  05:56 p. m.                39 archivo_03.txt
+11/09/2020  05:47 p. m.                31 archivo_04.txt
+11/09/2020  05:58 p. m.                59 archivo_05.txt
+               5 archivos            165 bytes
+               2 dirs  64.179.978.240 bytes libres

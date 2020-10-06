@@ -1,0 +1,366 @@
+Microsoft Windows [Versión 10.0.18363.1082]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\User>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User
+
+18/09/2020  10:34 p. m.    <DIR>          .
+18/09/2020  10:34 p. m.    <DIR>          ..
+12/09/2020  02:57 p. m.                24 .bash_history
+10/09/2020  09:52 a. m.    <DIR>          3D Objects
+04/09/2020  05:56 p. m.                 0 cd
+11/09/2020  05:49 p. m.    <DIR>          celulares
+10/09/2020  09:52 a. m.    <DIR>          Contacts
+16/09/2020  04:21 p. m.    <DIR>          Desktop
+18/09/2020  11:42 p. m.    <DIR>          Documents
+19/09/2020  02:10 p. m.    <DIR>          Downloads
+18/09/2020  10:46 p. m.    <DIR>          entregable_04
+10/09/2020  09:52 a. m.    <DIR>          Favorites
+04/09/2020  06:10 p. m.    <DIR>          laila
+10/09/2020  09:52 a. m.    <DIR>          Links
+10/09/2020  09:52 a. m.    <DIR>          Music
+01/09/2020  05:27 p. m.    <DIR>          OneDrive
+11/09/2020  09:04 p. m.    <DIR>          Pictures
+10/09/2020  09:52 a. m.    <DIR>          Saved Games
+10/09/2020  09:52 a. m.    <DIR>          Searches
+10/09/2020  09:52 a. m.    <DIR>          Videos
+               2 archivos             24 bytes
+              18 dirs  61.670.096.896 bytes libres
+
+C:\Users\User>mkdir evacamila
+
+C:\Users\User>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User
+
+19/09/2020  03:11 p. m.    <DIR>          .
+19/09/2020  03:11 p. m.    <DIR>          ..
+12/09/2020  02:57 p. m.                24 .bash_history
+10/09/2020  09:52 a. m.    <DIR>          3D Objects
+04/09/2020  05:56 p. m.                 0 cd
+11/09/2020  05:49 p. m.    <DIR>          celulares
+10/09/2020  09:52 a. m.    <DIR>          Contacts
+16/09/2020  04:21 p. m.    <DIR>          Desktop
+18/09/2020  11:42 p. m.    <DIR>          Documents
+19/09/2020  02:10 p. m.    <DIR>          Downloads
+18/09/2020  10:46 p. m.    <DIR>          entregable_04
+19/09/2020  03:11 p. m.    <DIR>          evacamila
+10/09/2020  09:52 a. m.    <DIR>          Favorites
+04/09/2020  06:10 p. m.    <DIR>          laila
+10/09/2020  09:52 a. m.    <DIR>          Links
+10/09/2020  09:52 a. m.    <DIR>          Music
+01/09/2020  05:27 p. m.    <DIR>          OneDrive
+11/09/2020  09:04 p. m.    <DIR>          Pictures
+10/09/2020  09:52 a. m.    <DIR>          Saved Games
+10/09/2020  09:52 a. m.    <DIR>          Searches
+10/09/2020  09:52 a. m.    <DIR>          Videos
+               2 archivos             24 bytes
+              19 dirs  61.671.616.512 bytes libres
+
+C:\Users\User>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User
+
+19/09/2020  03:11 p. m.    <DIR>          .
+19/09/2020  03:11 p. m.    <DIR>          ..
+12/09/2020  02:57 p. m.                24 .bash_history
+10/09/2020  09:52 a. m.    <DIR>          3D Objects
+04/09/2020  05:56 p. m.                 0 cd
+11/09/2020  05:49 p. m.    <DIR>          celulares
+10/09/2020  09:52 a. m.    <DIR>          Contacts
+16/09/2020  04:21 p. m.    <DIR>          Desktop
+18/09/2020  11:42 p. m.    <DIR>          Documents
+19/09/2020  02:10 p. m.    <DIR>          Downloads
+18/09/2020  10:46 p. m.    <DIR>          entregable_04
+19/09/2020  03:11 p. m.    <DIR>          evacamila
+10/09/2020  09:52 a. m.    <DIR>          Favorites
+04/09/2020  06:10 p. m.    <DIR>          laila
+10/09/2020  09:52 a. m.    <DIR>          Links
+10/09/2020  09:52 a. m.    <DIR>          Music
+01/09/2020  05:27 p. m.    <DIR>          OneDrive
+11/09/2020  09:04 p. m.    <DIR>          Pictures
+10/09/2020  09:52 a. m.    <DIR>          Saved Games
+10/09/2020  09:52 a. m.    <DIR>          Searches
+10/09/2020  09:52 a. m.    <DIR>          Videos
+               2 archivos             24 bytes
+              19 dirs  61.671.256.064 bytes libres
+
+C:\Users\User>cd..
+"cd.." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\User>cd..
+"cd.." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\User>cd evacamila
+
+C:\Users\User\evacamila>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\evacamila
+
+19/09/2020  03:21 p. m.    <DIR>          .
+19/09/2020  03:21 p. m.    <DIR>          ..
+19/09/2020  02:20 p. m.               751 Atrapar al ladron.txt
+19/09/2020  02:50 p. m.               873 Estudio de Calvin.txt
+               2 archivos          1.624 bytes
+               2 dirs  61.673.783.296 bytes libres
+
+C:\Users\User\evacamila>certutil -hashfile atrapar al ladron.txt SHA256
+No se esperaba más de 2 args, recibidos 4
+CertUtil: Demasiados argumentos
+
+Uso:
+  CertUtil [Opciones] -hashfile InFile [algoritmoHash]
+  Generar y mostrar hash de cifrado en un archivo
+
+Opciones:
+  -Unicode          -- Escribir salida redireccionada en Unicode
+  -gmt              -- Mostrar horas como GMT
+  -seconds          -- Mostrar horas con segundos y milisegundos
+  -v                -- Operación detallada
+  -privatekey       -- Mostrar los datos de clave privada y de contraseña
+  -pin PIN                  -- PIN de la tarjeta inteligente
+  -sid WELL_KNOWN_SID_TYPE  -- SID numérico
+            22 -- Sistema local
+            23 -- Servicio local
+            24 -- Servicio de red
+
+Algoritmos hash: MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512
+
+CertUtil -?              -- Mostrar una lista de verbos (lista de comandos)
+CertUtil -hashfile -?    -- Mostrar el texto de ayuda del verbo "hashfile"
+CertUtil -v -?           -- Mostrar todo el texto de ayuda de todos los verbos
+
+
+C:\Users\User\evacamila>certutil -hashfile atrapar_ladron.txt SHA256
+CertUtil: -hashfile error del comando: 0x80070002 (WIN32: 2 ERROR_FILE_NOT_FOUND)
+CertUtil: El sistema no puede encontrar el archivo especificado.
+
+C:\Users\User\evacamila>certutil -hashfile atrapar_ladron.txt SHA256
+CertUtil: -hashfile error del comando: 0x80070002 (WIN32: 2 ERROR_FILE_NOT_FOUND)
+CertUtil: El sistema no puede encontrar el archivo especificado.
+
+C:\Users\User\evacamila>certutil -hashfile atrapa_al_ladron.txt SHA256
+CertUtil: -hashfile error del comando: 0x80070002 (WIN32: 2 ERROR_FILE_NOT_FOUND)
+CertUtil: El sistema no puede encontrar el archivo especificado.
+
+C:\Users\User\evacamila>certutil -hashfile atrapar_al_ladron.txt SHA256
+CertUtil: -hashfile error del comando: 0x80070002 (WIN32: 2 ERROR_FILE_NOT_FOUND)
+CertUtil: El sistema no puede encontrar el archivo especificado.
+
+C:\Users\User\evacamila>certutil -hashfile atrapar_ladron.txt SHA256
+SHA256 hash de atrapar_ladron.txt:
+7c62ecbec4460974ed32fc6ec94bb7bae03ed2247dc299879e1333c7bb1919f9
+CertUtil: -hashfile comando completado correctamente.
+
+C:\Users\User\evacamila>certutil -hashfile atrapar_ladron.txt SHA256 | findstr /V hash
+7c62ecbec4460974ed32fc6ec94bb7bae03ed2247dc299879e1333c7bb1919f9
+
+C:\Users\User\evacamila>certutil -hashfile atrapar_ladron.txt SHA256 | findstr /V hash > huellaatrapado.txt
+
+C:\Users\User\evacamila>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\evacamila
+
+19/09/2020  03:39 p. m.    <DIR>          .
+19/09/2020  03:39 p. m.    <DIR>          ..
+19/09/2020  02:50 p. m.               873 atrapar_ladron.txt
+19/09/2020  02:20 p. m.               751 estudio_Calvin.txt
+19/09/2020  03:39 p. m.                66 huellaatrapado.txt
+               3 archivos          1.690 bytes
+               2 dirs  61.671.641.088 bytes libres
+
+C:\Users\User\evacamila>certutil -hashfile estudio_Calvin.txt SHA256
+SHA256 hash de estudio_Calvin.txt:
+801a6ba86aa1997efde11be8c267a9ef76949d07f31aa4398a9414176babd8af
+CertUtil: -hashfile comando completado correctamente.
+
+C:\Users\User\evacamila>certutil -hashfile estudio_Calvin.txt SHA256 | findstr /V hash
+801a6ba86aa1997efde11be8c267a9ef76949d07f31aa4398a9414176babd8af
+
+C:\Users\User\evacamila>certutil -hashfile estudio_Calvin.txt SHA256 | findstr /V hash > huellaCalvin
+
+C:\Users\User\evacamila>certutil -hashfile estudio_Calvin.txt SHA256 | findstr /V hash > huellaCalvin.txt
+
+C:\Users\User\evacamila>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: AA81-24CD
+
+ Directorio de C:\Users\User\evacamila
+
+19/09/2020  03:42 p. m.    <DIR>          .
+19/09/2020  03:42 p. m.    <DIR>          ..
+19/09/2020  02:50 p. m.               873 atrapar_ladron.txt
+19/09/2020  02:20 p. m.               751 estudio_Calvin.txt
+19/09/2020  03:39 p. m.                66 huellaatrapado.txt
+19/09/2020  03:41 p. m.                66 huellaCalvin
+19/09/2020  03:42 p. m.                66 huellaCalvin.txt
+               5 archivos          1.822 bytes
+               2 dirs  61.670.772.736 bytes libres
+
+C:\Users\User\evacamila>git --version
+git version 2.28.0.windows.1
+
+C:\Users\User\evacamila>git confing --global -l
+git: 'confing' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+C:\Users\User\evacamila>git confing --global -1
+git: 'confing' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+C:\Users\User\evacamila>git config -1
+error: unknown switch `1'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+C:\Users\User\evacamila>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\User\evacamila>git init
+Initialized empty Git repository in C:/Users/User/evacamila/.git/
+
+C:\Users\User\evacamila>git config --global user.name "Camila Barona"
+
+C:\Users\User\evacamila>git config --global user.email "camilabarona12@gmail.com"
+
+C:\Users\User\evacamila>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        atrapar_ladron.txt
+        estudio_Calvin.txt
+        huellaCalvin
+        huellaCalvin.txt
+        huellaatrapado.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\User\evacamila>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\User\evacamila>git add .
+
+C:\Users\User\evacamila>git add .
+
+C:\Users\User\evacamila>git add .
+
+C:\Users\User\evacamila>git config core.autocrlf true
+
+C:\Users\User\evacamila>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   atrapar_ladron.txt
+        new file:   estudio_Calvin.txt
+        new file:   huellaCalvin
+        new file:   huellaCalvin.txt
+        new file:   huellaatrapado.txt
+
+
+C:\Users\User\evacamila>git rm --cached*.png
+error: unknown option `cached*.png'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+C:\Users\User\evacamila>git commit-m "mi primer commit en trabajo evaluativo"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+C:\Users\User\evacamila>git log
+fatal: your current branch 'master' does not have any commits yet
+
+C:\Users\User\evacamila>git commit -m "mi primer commit en trabajo evaluativo"
+[master (root-commit) 5c14312] mi primer commit en trabajo evaluativo
+ 5 files changed, 30 insertions(+)
+ create mode 100644 atrapar_ladron.txt
+ create mode 100644 estudio_Calvin.txt
+ create mode 100644 huellaCalvin
+ create mode 100644 huellaCalvin.txt
+ create mode 100644 huellaatrapado.txt
+
+C:\Users\User\evacamila>git log
+commit 5c1431295fb9bbba1694a19ea31bd1ab6d5df334 (HEAD -> master)
+Author: Camila Barona <camilabarona12@gmail.com>
+Date:   Sat Sep 19 16:17:20 2020 -0500
+
+    mi primer commit en trabajo evaluativo
+
+
