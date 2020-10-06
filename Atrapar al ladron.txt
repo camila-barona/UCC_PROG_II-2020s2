@@ -1,0 +1,14 @@
+algoritmo atrapar el ladron 
+paso #
+1)Hernandez y Fernández estan buscando la "piedra de cristal" que se perdio en el museo de Helsinki
+2)hospedar en el hotel DUE en Helsinki
+3)Atender la llamada de la persona  que cobra la informacion
+4)definir cita dia, hora, ubicacion y el valor de la informacion
+5)llegar a la cita, se recibe la informacion y se paga por ella
+6)se recibe la llamada indicando que el ladron viajara a Argentina
+7)Hernandez va a la agencia de viaje y separa 2 pasajes para Argentina
+8)Viajar a Argentina y darse cuenta que el ladron no esta
+9)informan que el ladron negociara la joya en Peru
+10) ir a la agencia de viaje y separar 2 boletas a Peru
+11) viajar a Peru y ubicar al ladron
+12)capturan al hombre diamante
