@@ -1,0 +1,420 @@
+Microsoft Windows [Versión 10.0.18363.1082]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\57318>d:
+
+D:\>cd D:\Ucc_PROG_II-2020s2
+
+D:\Ucc_PROG_II-2020s2>dir
+ El volumen de la unidad D es DRIVERS
+ El número de serie del volumen es: 5C39-3A80
+
+ Directorio de D:\Ucc_PROG_II-2020s2
+
+12/09/2020  14:24    <DIR>          .
+12/09/2020  14:24    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs   1,950,097,408 bytes libres
+
+D:\Ucc_PROG_II-2020s2>git --version
+git version 2.28.0.windows.1
+
+D:\Ucc_PROG_II-2020s2>git config --global -l
+fatal: unable to read config file 'C:/Users/57318/.gitconfig': No such file or directory
+
+D:\Ucc_PROG_II-2020s2>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+D:\Ucc_PROG_II-2020s2>git init
+Initialized empty Git repository in D:/Ucc_PROG_II-2020s2/.git/
+
+D:\Ucc_PROG_II-2020s2>git config --global user.name "Maria camila Barona"
+
+D:\Ucc_PROG_II-2020s2>git config --global user.email "camilabarona12@gmail.com"
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Ucc_PROG_II-2020s2>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+D:\Ucc_PROG_II-2020s2>git add .
+warning: LF will be replaced by CRLF in bootstrap_web_stad/404.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/browserconfig.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/jquery-1.11.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/npm.js.
+The file will have its original line endings in your working directory
+
+D:\Ucc_PROG_II-2020s2>git config core.autocrlf true
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bootstrap_web_stad/404.html
+        new file:   bootstrap_web_stad/apple-touch-icon.png
+        new file:   bootstrap_web_stad/browserconfig.xml
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap-theme.min.css
+        new file:   bootstrap_web_stad/css/bootstrap.css
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.min.css
+        new file:   bootstrap_web_stad/css/main.css
+        new file:   bootstrap_web_stad/favicon.ico
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.eot
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.ttf
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.woff
+        new file:   bootstrap_web_stad/index.html
+        new file:   bootstrap_web_stad/js/main.js
+        new file:   bootstrap_web_stad/js/vendor/bootstrap.js
+        new file:   bootstrap_web_stad/js/vendor/bootstrap.min.js
+        new file:   bootstrap_web_stad/js/vendor/jquery-1.11.2.min.js
+        new file:   bootstrap_web_stad/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+        new file:   bootstrap_web_stad/js/vendor/npm.js
+        new file:   bootstrap_web_stad/tile-wide.png
+        new file:   bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git add .
+warning: LF will be replaced by CRLF in bootstrap_web_stad/404.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/browserconfig.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/jquery-1.11.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/js/vendor/npm.js.
+The file will have its original line endings in your working directory
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bootstrap_web_stad/404.html
+        new file:   bootstrap_web_stad/apple-touch-icon.png
+        new file:   bootstrap_web_stad/browserconfig.xml
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap-theme.min.css
+        new file:   bootstrap_web_stad/css/bootstrap.css
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.min.css
+        new file:   bootstrap_web_stad/css/main.css
+        new file:   bootstrap_web_stad/favicon.ico
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.eot
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.ttf
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.woff
+        new file:   bootstrap_web_stad/index.html
+        new file:   bootstrap_web_stad/js/main.js
+        new file:   bootstrap_web_stad/js/vendor/bootstrap.js
+        new file:   bootstrap_web_stad/js/vendor/bootstrap.min.js
+        new file:   bootstrap_web_stad/js/vendor/jquery-1.11.2.min.js
+        new file:   bootstrap_web_stad/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+        new file:   bootstrap_web_stad/js/vendor/npm.js
+        new file:   bootstrap_web_stad/tile-wide.png
+        new file:   bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git rm --cached *.png
+rm 'bootstrap_web_stad/apple-touch-icon.png'
+rm 'bootstrap_web_stad/tile-wide.png'
+rm 'bootstrap_web_stad/tile.png'
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bootstrap_web_stad/404.html
+        new file:   bootstrap_web_stad/browserconfig.xml
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap-theme.min.css
+        new file:   bootstrap_web_stad/css/bootstrap.css
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.min.css
+        new file:   bootstrap_web_stad/css/main.css
+        new file:   bootstrap_web_stad/favicon.ico
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.eot
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.ttf
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.woff
+        new file:   bootstrap_web_stad/index.html
+        new file:   bootstrap_web_stad/js/main.js
+        new file:   bootstrap_web_stad/js/vendor/bootstrap.js
+        new file:   bootstrap_web_stad/js/vendor/bootstrap.min.js
+        new file:   bootstrap_web_stad/js/vendor/jquery-1.11.2.min.js
+        new file:   bootstrap_web_stad/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+        new file:   bootstrap_web_stad/js/vendor/npm.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/apple-touch-icon.png
+        bootstrap_web_stad/tile-wide.png
+        bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git rm --cached *.css
+rm 'bootstrap_web_stad/css/bootstrap-theme.css'
+rm 'bootstrap_web_stad/css/bootstrap-theme.min.css'
+rm 'bootstrap_web_stad/css/bootstrap.css'
+rm 'bootstrap_web_stad/css/bootstrap.min.css'
+rm 'bootstrap_web_stad/css/main.css'
+
+D:\Ucc_PROG_II-2020s2>
+
+D:\Ucc_PROG_II-2020s2>git rm --cached *.js
+rm 'bootstrap_web_stad/js/main.js'
+rm 'bootstrap_web_stad/js/vendor/bootstrap.js'
+rm 'bootstrap_web_stad/js/vendor/bootstrap.min.js'
+rm 'bootstrap_web_stad/js/vendor/jquery-1.11.2.min.js'
+rm 'bootstrap_web_stad/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'
+rm 'bootstrap_web_stad/js/vendor/npm.js'
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bootstrap_web_stad/404.html
+        new file:   bootstrap_web_stad/browserconfig.xml
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+        new file:   bootstrap_web_stad/favicon.ico
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.eot
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.ttf
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.woff
+        new file:   bootstrap_web_stad/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/apple-touch-icon.png
+        bootstrap_web_stad/css/bootstrap-theme.css
+        bootstrap_web_stad/css/bootstrap-theme.min.css
+        bootstrap_web_stad/css/bootstrap.css
+        bootstrap_web_stad/css/bootstrap.min.css
+        bootstrap_web_stad/css/main.css
+        bootstrap_web_stad/js/
+        bootstrap_web_stad/tile-wide.png
+        bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git rm --cached *.map
+rm 'bootstrap_web_stad/css/bootstrap-theme.css.map'
+rm 'bootstrap_web_stad/css/bootstrap.css.map'
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bootstrap_web_stad/404.html
+        new file:   bootstrap_web_stad/browserconfig.xml
+        new file:   bootstrap_web_stad/favicon.ico
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.eot
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.ttf
+        new file:   bootstrap_web_stad/fonts/glyphicons-halflings-regular.woff
+        new file:   bootstrap_web_stad/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/apple-touch-icon.png
+        bootstrap_web_stad/css/
+        bootstrap_web_stad/js/
+        bootstrap_web_stad/tile-wide.png
+        bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git commit -m "mi primer commit en GIT para un pryecto web"
+[master (root-commit) dea111e] mi primer commit en GIT para un pryecto web
+ 8 files changed, 407 insertions(+)
+ create mode 100644 bootstrap_web_stad/404.html
+ create mode 100644 bootstrap_web_stad/browserconfig.xml
+ create mode 100644 bootstrap_web_stad/favicon.ico
+ create mode 100644 bootstrap_web_stad/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 bootstrap_web_stad/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 bootstrap_web_stad/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 bootstrap_web_stad/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 bootstrap_web_stad/index.html
+
+D:\Ucc_PROG_II-2020s2>git log
+commit dea111e9afb611584671c025c51fd5e945a68191 (HEAD -> master)
+Author: Maria Camila Barona <camilabarona12@gmail.com>
+Date:   Sat Sep 12 15:28:00 2020 -0500
+
+    mi primer commit en GIT para un pryecto web
+
+D:\Ucc_PROG_II-2020s2>add *.map
+"add" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\Ucc_PROG_II-2020s2>git add *.map
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/apple-touch-icon.png
+        bootstrap_web_stad/css/bootstrap-theme.css
+        bootstrap_web_stad/css/bootstrap-theme.min.css
+        bootstrap_web_stad/css/bootstrap.css
+        bootstrap_web_stad/css/bootstrap.min.css
+        bootstrap_web_stad/css/main.css
+        bootstrap_web_stad/js/
+        bootstrap_web_stad/tile-wide.png
+        bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git add *.css
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_stad/css/main.css.
+The file will have its original line endings in your working directory
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap-theme.min.css
+        new file:   bootstrap_web_stad/css/bootstrap.css
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.min.css
+        new file:   bootstrap_web_stad/css/main.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/apple-touch-icon.png
+        bootstrap_web_stad/js/
+        bootstrap_web_stad/tile-wide.png
+        bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git restore --staged *.css
+
+D:\Ucc_PROG_II-2020s2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   bootstrap_web_stad/css/bootstrap-theme.css.map
+        new file:   bootstrap_web_stad/css/bootstrap.css.map
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_stad/apple-touch-icon.png
+        bootstrap_web_stad/css/bootstrap-theme.css
+        bootstrap_web_stad/css/bootstrap-theme.min.css
+        bootstrap_web_stad/css/bootstrap.css
+        bootstrap_web_stad/css/bootstrap.min.css
+        bootstrap_web_stad/css/main.css
+        bootstrap_web_stad/js/
+        bootstrap_web_stad/tile-wide.png
+        bootstrap_web_stad/tile.png
+
+
+D:\Ucc_PROG_II-2020s2>git commit -m "mi segundo commit en GIT para un proyecto web"
+[master a141ba4] mi segundo commit en GIT para un proyecto web
+ 2 files changed, 2 insertions(+)
+ create mode 100644 bootstrap_web_stad/css/bootstrap-theme.css.map
+ create mode 100644 bootstrap_web_stad/css/bootstrap.css.map
+
+D:\Ucc_PROG_II-2020s2>git log
+commit a141ba4483d251780bd183cf26b8d8b5efa889a2 (HEAD -> master)
+Author: Maria Camila Barona <camilabarona12@gmail.com>
+Date:   Sat Sep 12 15:49:54 2020 -0500
+
+    mi segundo commit en GIT para un proyecto web
+
+commit dea111e9afb611584671c025c51fd5e945a68191
+Author: Maria Camila Barona <camilabarona12@gmail.com>
+Date:   Sat Sep 12 15:28:00 2020 -0500
+
+    mi primer commit en GIT para un pryecto web
+
+D:\Ucc_PROG_II-2020s2>
